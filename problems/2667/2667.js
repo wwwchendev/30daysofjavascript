@@ -11,5 +11,6 @@
 const createHelloWorld = ()=> ()=> "Hello World";
 
 //Testcase
-console.log(createHelloWorld());
-console.log(createHelloWorld({},null,42));
+const conversation = createHelloWorld();
+console.log(conversation());
+console.log(conversation({},null,42));
