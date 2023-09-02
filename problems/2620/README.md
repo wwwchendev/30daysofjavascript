@@ -13,9 +13,6 @@ Given an integer `n`, return a `counter` function. This `counter` function initi
 counter() = 11 // Returns 1 more than the previous time.
 counter() = 12 // Returns 1 more than the previous time.
  
-
-
-
 ### Example 2:    
 >  __Input__:  
    n = -2      
