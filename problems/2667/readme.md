@@ -32,6 +32,13 @@ Any arguments could be passed to the function but it should still always return 
 
 ## Solution
 
+   - `createHelloWorld` 函數是一個箭頭函數，它不接受任何參數。它的主體返回另一個箭頭函數。
+   - 內部的箭頭函數 `() => "Hello World"` 返回字符串 `"Hello World"`。
+   
+   - 由於內部的箭頭函數在外部函數 `createHelloWorld` 中被定義，它形成了一個閉包。這意味著它可以訪問外部函數的作用域，即使外部函數已經執行完畢。
+
+   - 將 `createHelloWorld` 調用存儲在一個變數中，然後多次調用該變數，每次都會返回 `"Hello World"` 字符串，因為內部的閉包保留了這個字符串的值。
+
 1. Write a function createHelloWorld. 
 ```
 const createHelloWorld = ()=>{}
