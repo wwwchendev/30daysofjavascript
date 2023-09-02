@@ -111,7 +111,7 @@
          <td data-header="Tag">JSON,</td>
       </tr>
       <tr data-problem="2704">
-         <td data-header="Stats"> 
+         <td data-header="Stats"> ✅
          </td>
          <td data-header="#"> 2704
          </td>
