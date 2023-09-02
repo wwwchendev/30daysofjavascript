@@ -177,10 +177,10 @@
       <tr data-problem="2667">
          <td data-header="Stats"> ✅
          </td>
-         <td data-header="https://github.com/wwwchendev/UNLOCK-Leetcode/tree/main/problems/2667/readme.md"> 2667
+         <td data-header="#"> 2667
          </td>
          <td data-header="Title">
-            <a href="">
+            <a href="https://github.com/wwwchendev/UNLOCK-Leetcode/tree/main/problems/2667/readme.md">
                Create Hello World Function
             </a>
          </td>
