@@ -124,7 +124,7 @@
          </td>
          <td data-header="Difficulty"> Easy
          </td>
-         <td data-header="Tag"> closures,
+         <td data-header="Tag"> closures,比較運算符,邏輯運算子
          </td>
       </tr>
       <tr data-problem="2703">
@@ -209,7 +209,7 @@
          </td>
       </tr>
       <tr data-problem="2665">
-         <td data-header="Stats"> 
+         <td data-header="Stats"> ✅
          </td>
          <td data-header="#"> 2665
          </td>
@@ -222,7 +222,7 @@
          </td>
          <td data-header="Difficulty"> Easy
          </td>
-         <td data-header="Tag"> closures,
+         <td data-header="Tag"> closures,前置遞增運算子
          </td>
       </tr>
       <tr data-problem="2637">
@@ -384,7 +384,7 @@
          </td>
          <td data-header="Difficulty"> Easy
          </td>
-         <td data-header="Tag"> closures,
+         <td data-header="Tag"> closures,後置遞增運算子
          </td>
       </tr>
       <tr data-problem="2619">
