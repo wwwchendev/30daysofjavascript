@@ -249,11 +249,11 @@
          </td>
          <td data-header="Difficulty"> Easy
          </td>
-         <td data-header="Tag"> array,
+         <td data-header="Tag"> array,map
          </td>
       </tr>
       <tr data-problem="2634">
-         <td data-header="Stats">
+         <td data-header="Stats"> ✅
          </td>
          <td data-header="#"> 2634
          </td>
@@ -266,7 +266,7 @@
          </td>
          <td data-header="Difficulty"> Easy
          </td>
-         <td data-header="Tag"> array,
+         <td data-header="Tag"> array,filter
          </td>
       </tr>
       <tr data-problem="2631">
@@ -297,7 +297,7 @@
          </td>
       </tr>
       <tr data-problem="2626">
-         <td data-header="Stats">
+         <td data-header="Stats"> ✅
          </td>
          <td data-header="#"> 2626
          </td>
@@ -310,7 +310,7 @@
          </td>
          <td data-header="Difficulty"> Easy
          </td>
-         <td data-header="Tag"> array,
+         <td data-header="Tag"> array,reduce
          </td>
       </tr>
       <tr data-problem="2623">
