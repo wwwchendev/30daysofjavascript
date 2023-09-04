@@ -50,6 +50,8 @@ You may assume each function in the array accepts one integer as input and retur
 
 ## Solution
 
+### 使用 for迴圈 遞減的寫法
+
 1. 宣告一個函式`compose`作為組合陣列的方法，而它的參數則為函式陣列`functions` 
 2. 如果functions是空陣列，則返回恆等函數 (x)=>x。
 
@@ -83,5 +85,18 @@ function compose(functions) {
 }
 ```
 
+
+### 使用 Array.reduceRight() 的寫法
+- 使用 reduceRight 遞減循環，從陣列最後一個元素開始遍歷到第一項元素。
+- 累加的初始參數是x，代入迭代的currentFunction後，返還result作為下一次函式的參數。
+```
+function compose(functions) {
+   return function (x) {
+      return functions.reduceRight((result, currentFunction) => {
+         return currentFunction(result);
+      }, x);
+   };
+}
+```
 
 [title]: https://leetcode.com/problems/function-composition/
