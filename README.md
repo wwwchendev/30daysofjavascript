@@ -280,7 +280,7 @@
          <td data-header="Tag">JSON,</td>
       </tr>
       <tr data-problem="2629">
-         <td data-header="Stats">
+         <td data-header="Stats"> ✅
          </td>
          <td data-header="#"> 2629
          </td>
@@ -293,7 +293,7 @@
          </td>
          <td data-header="Difficulty"> Easy
          </td>
-         <td data-header="Tag"> function,
+         <td data-header="Tag"> function,composem,for遞減,reduceRight
          </td>
       </tr>
       <tr data-problem="2626">
