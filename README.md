@@ -128,7 +128,7 @@
          </td>
       </tr>
       <tr data-problem="2703">
-         <td data-header="Stats">
+         <td data-header="Stats"> ✅
          </td>
          <td data-header="#"> 2703
          </td>
@@ -141,7 +141,7 @@
          </td>
          <td data-header="Difficulty"> Easy
          </td>
-         <td data-header="Tag"> function,
+         <td data-header="Tag"> function,arguments
          </td>
       </tr>
       <tr data-problem="2695">
@@ -192,7 +192,7 @@
          </td>
       </tr>
       <tr data-problem="2666">
-         <td data-header="Stats">
+         <td data-header="Stats"> ✅
          </td>
          <td data-header="#"> 2666
          </td>
@@ -205,7 +205,7 @@
          </td>
          <td data-header="Difficulty"> Easy
          </td>
-         <td data-header="Tag"> function,
+         <td data-header="Tag"> function,...args,
          </td>
       </tr>
       <tr data-problem="2665">
