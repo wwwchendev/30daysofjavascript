@@ -327,7 +327,7 @@
          </td>
          <td data-header="Difficulty"> Medium
          </td>
-         <td data-header="Tag"> function,
+         <td data-header="Tag"> function,Map,JSON,Cache,memoization
          </td>
       </tr>
       <tr data-problem="2627">
