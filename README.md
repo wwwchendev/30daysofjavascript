@@ -314,7 +314,7 @@
          </td>
       </tr>
       <tr data-problem="2623">
-         <td data-header="Stats">
+         <td data-header="Stats"> ✅
          </td>
          <td data-header="#"> 2623
          </td>
