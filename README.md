@@ -293,7 +293,7 @@
          </td>
          <td data-header="Difficulty"> Easy
          </td>
-         <td data-header="Tag"> function,composem,for遞減,reduceRight
+         <td data-header="Tag"> function,compose,for遞減,reduceRight
          </td>
       </tr>
       <tr data-problem="2626">
@@ -361,14 +361,14 @@
          <td data-header="Tag">promises,time,</td>
       </tr>
       <tr data-problem="2621">
-         <td data-header="Stats"></td>
+         <td data-header="Stats"> ✅</td>
          <td data-header="#">2621</td>
          <td data-header="Title">
             <a href="https://github.com/wwwchendev/UNLOCK-Leetcode/blob/main/problems/2621/README.md">Sleep</a>
          </td>
          <td data-header="Language">javascript</td>
          <td data-header="Difficulty">Easy</td>
-         <td data-header="Tag">promises,time,</td>
+         <td data-header="Tag">promise,setTimeout,async/await</td>
       </tr>
       <tr data-problem="2620">
          <td data-header="Stats"> ✅
