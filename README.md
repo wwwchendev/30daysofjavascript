@@ -91,14 +91,14 @@
          <td data-header="Tag">promises,time,</td>
       </tr>
       <tr data-problem="2715">
-         <td data-header="Stats"></td>
+         <td data-header="Stats"> ✅</td>
          <td data-header="#">2715</td>
          <td data-header="Title">
             <a href="https://github.com/wwwchendev/UNLOCK-Leetcode/blob/main/problems/2715/README.md">Timeout Cancellation</a>
          </td>
          <td data-header="Language">javascript</td>
          <td data-header="Difficulty">Easy</td>
-         <td data-header="Tag">promises,time,</td>
+         <td data-header="Tag">setTimeout,clearTimeout</td>
       </tr>
       <tr data-problem="2705">
          <td data-header="Stats"></td>
