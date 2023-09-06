@@ -54,7 +54,7 @@
          <td data-header="Tag">JSON,</td>
       </tr>
       <tr data-problem="2723">
-         <td data-header="Stats">
+         <td data-header="Stats"> ✅
          </td>
          <td data-header="#"> 2723
          </td>
@@ -67,7 +67,7 @@
          </td>
          <td data-header="Difficulty"> Easy
          </td>
-         <td data-header="Tag"> promises,time,
+         <td data-header="Tag"> promise,async/await,解構賦值,reduce
          </td>
       </tr>
       <tr data-problem="2722">
