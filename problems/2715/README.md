@@ -51,45 +51,57 @@ The cancellation was scheduled to occur after a delay of cancelT (50ms), which h
 
 ## Solution
 
-1. 給定一個函數 fn、一個參數數組 args 和一個以毫秒為單位的超時 t，返回一個取消函數 cancelFn。另外testcase有提到cancelT。
+1. 給定一個函數 fn、一個參數數組 args 和一個以毫秒為單位的超時 t，返回一個取消函數 cancelFn。
 ```
 const cancellable = function(fn,args,t,cancelT){
 
-    //其他過程
-
-    const cancelFn = ()=>{
-        //清除定時器的邏輯
-    };
-
-    return cancelFn;
-};
-```
-
-2. setTimeout的`t`時間到了會執行`fn`，而`cancelT`時間到了會執行`cancelFn`。
-- 在延遲 t 秒後，應使用作為參數傳遞的 args 來調用 fn，
-   - 題意是請我們設定`setTimeout`的意思。
-- 在延遲 cancelT 秒後，應調用 `cancelFn`，
-   - `cancelFn`的方法，那就是`clearTimeout(timeoutId);`，因此宣告`let timeoutId` = 先前的`setTimeout` ( setTimeout函數執行後會返回timeoutId )。
-   - 題意是請我們設定`clearTimeout`的意思。
-- 除非在延遲 t 毫秒之前（特別是在 cancelT ms 處）調用 cancelFn。     
-在這種情況下，永遠不應調用 fn。
-
-```
-const cancellable = function(fn,args,t,cancelT){
-
+    //setTimeout函數執行後會返回timeoutId
     let timeoutId = setTimeout(() => {
         fn(...args);
+        console.log(`調用fn`);
     }, t);
 
     const cancelFn = ()=>{
+        //clearTimeout(timeoutId);的用法
         clearTimeout(timeoutId);
-    };
-
-    setTimeout(()=>cancelFn, cancelT);
+    };    
 
     return cancelFn;
 };
 
+```
+
+2. 測試 在延遲 t 毫秒之前（特別是在 cancelT ms 處）調用 cancelFn。
+
+testcase1
+```
+const fn = (x) => x * 5;
+const args = [2];
+const t = 20;
+const cancel = cancellable(fn, args, t); 
+
+const cancelT = 50;
+
+setTimeout(() => {
+   cancel()
+   console.log(`T1定時結束`) 
+}, cancelT)
+```
+testcase2
+```
+//當 cancelT 小於 t 時，fn 不應該被調用
+
+const fn2 = (x) => x * 5;
+const args2 = [2];
+const t2 = 100;
+const cancel2 = cancellable(fn2, args2, t2); 
+
+const cancelT2 = 50;
+
+setTimeout(() => {
+   cancel2();
+   console.log(`T2定時結束`) ;
+}, cancelT2)
 ```
 
 [title]: https://leetcode.com/problems/sleep/
