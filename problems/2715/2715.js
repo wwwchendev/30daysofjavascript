@@ -16,67 +16,45 @@ const cancellable = function(fn,args,t,cancelT){
     //setTimeout函數執行後會返回timeoutId
     let timeoutId = setTimeout(() => {
         fn(...args);
+        console.log(`調用fn`);
     }, t);
 
     const cancelFn = ()=>{
         //clearTimeout(timeoutId);的用法
         clearTimeout(timeoutId);
-    };
-    setTimeout(()=>cancelFn, cancelT);
+    };    
 
     return cancelFn;
 };
 
+//testcase1
 
-//testcase
+const fn = (x) => x * 5;
+const args = [2];
+const t = 20;
+const cancel = cancellable(fn, args, t); 
 
-// 測試案例 1
-const fn1 = (x) => x * 5;
-const args1 = [2];
-const t1 = 20;
-const cancelT1 = 50;
-
-const result1 = [];
-const cancel1 = cancellable((x) => {
-    result1.push({ time: t1, returned: x });
-    return x;
-}, args1, t1, cancelT1);
+const cancelT = 50;
 
 setTimeout(() => {
-    console.log("Test Case 1 Result:", result1[0]);
-    cancel1();
-}, 60); // 執行取消函數，應該在 fn1(2) 後執行，輸出 [{"time": 20, "returned": 10}]
+   cancel()
+   console.log(`T1定時結束`) 
+}, cancelT)
 
-// 測試案例 2
-const fn2 = (x) => x ** 2;
+
+
+//testcase2
+//當 cancelT 小於 t 時，fn 不應該被調用
+
+const fn2 = (x) => x * 5;
 const args2 = [2];
 const t2 = 100;
+const cancel2 = cancellable(fn2, args2, t2); 
+
 const cancelT2 = 50;
 
-const result2 = [];
-const cancel2 = cancellable((x) => {
-    result2.push({ time: t2, returned: x });
-    return x;
-}, args2, t2, cancelT2);
-
 setTimeout(() => {
-    console.log("Test Case 2 Result:", result2[0]);
-    cancel2();
-}, 60); // 執行取消函數，應該在 fn2(2) 前執行，不會執行 fn2，輸出 []
+   cancel2();
+   console.log(`T2定時結束`) ;
+}, cancelT2)
 
-// 測試案例 3
-const fn3 = (x1, x2) => x1 * x2;
-const args3 = [2, 4];
-const t3 = 30;
-const cancelT3 = 100;
-
-const result3 = [];
-const cancel3 = cancellable((x1, x2) => {
-    result3.push({ time: t3, returned: x1 * x2 });
-    return x1 * x2;
-}, args3, t3, cancelT3);
-
-setTimeout(() => {
-    console.log("Test Case 3 Result:", result3[0]);
-    cancel3();
-}, 130); // 執行取消函數，應該在 fn3(2,4) 後執行，輸出 [{"time": 30, "returned": 8}]
