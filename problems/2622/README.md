@@ -54,8 +54,38 @@ The class has three public methods:
 
 ## Solution
 
+1. 設置一個類別用於實現限時緩存，當中包含了Map型別的cache屬性
+```javascript
+const TimeLimitedCache = function() {this.cache = new Map(); };
 ```
 
+2. 該類具有三個公共方法 
+- set(key, value, duration)：設置鍵值對，並在持續時間結束後使該鍵變得無法訪問。如果相同的未過期鍵已經存在，則返回true，否則返回false。它也會覆蓋現有的值和持續時間。
+- get(key)：檢查是否存在未過期的鍵，如果存在，返回關聯的值；否則返回-1。
+- count()：返回未過期鍵的計數，使用Map的size屬性。
+
+補充：設置公共方法的方式
+- `TimeLimitedCache.prototype.Fn`在 TimeLimitedCache 的原型上定義了方法，這意味著所有 TimeLimitedCache 的實例都將共享這個方法。
+
+```javascript
+TimeLimitedCache.prototype.set = function(key, value, duration) {    
+    let found = this.cache.has(key); //檢查緩存裡有這個鍵嗎？
+    //如果鍵已存在，清除原有的計時
+    if (found) { clearTimeout(this.cache.get(key).ref);} 
+     //設置鍵值對key-value pair鍵值對，
+     //包含了兩個屬性：值以及有效期限(設置定時器，時間到了刪除鍵)
+     this.cache.set(  key, { 
+         value,
+         ref: setTimeout(() => this.cache.delete(key), duration)
+     }); 
+    return found;
+};
+
+//get(key)：根據鍵檢索相對應的值。如果存在未過期的鍵，則應返回關聯的值，否則它應該返回-1。
+TimeLimitedCache.prototype.get = function(key) { return this.cache.has(key) ? this.cache.get(key).value : -1; };
+
+//count()：返回未過期鍵的計數。 使用 .size 屬性來查詢該 Map 包含多少個鍵值對。
+TimeLimitedCache.prototype.count = function() { return this.cache.size;};
 ```
 
 [title]: https://leetcode.com/problems/cache-with-time-limit/

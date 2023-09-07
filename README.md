@@ -351,14 +351,14 @@
          <td data-header="Tag">JSON,</td>
       </tr>
       <tr data-problem="2622">
-         <td data-header="Stats"></td>
+         <td data-header="Stats"> ✅</td>
          <td data-header="#">2622</td>
          <td data-header="Title">
             <a href="https://github.com/wwwchendev/UNLOCK-Leetcode/blob/main/problems/2622/README.md">Cache With Time Limit</a>
          </td>
          <td data-header="Language">javascript</td>
          <td data-header="Difficulty">Medium</td>
-         <td data-header="Tag">promises,time,</td>
+         <td data-header="Tag">time,cache,map,key-value pair,class</td>
       </tr>
       <tr data-problem="2621">
          <td data-header="Stats"> ✅</td>
