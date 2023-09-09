@@ -14,14 +14,14 @@
          <td data-header="Tag">Tag</td>
       </tr>
       <tr data-problem="2727">
-         <td data-header="Stats"></td>
+         <td data-header="Stats"> ✅</td>
          <td data-header="#">2727</td>
          <td data-header="Title">
             <a href="https://github.com/wwwchendev/UNLOCK-Leetcode/blob/main/problems/2727/README.md">Is Object Empty</a>
          </td>
          <td data-header="Language">javascript</td>
          <td data-header="Difficulty">Easy</td>
-         <td data-header="Tag">JSON,</td>
+         <td data-header="Tag">JSON,for...in,</td>
       </tr>
       <tr data-problem="2726">
          <td data-header="Stats"></td>
