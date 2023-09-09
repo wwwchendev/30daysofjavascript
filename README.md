@@ -81,14 +81,14 @@
          <td data-header="Tag">JSON,</td>
       </tr>
       <tr data-problem="2721">
-         <td data-header="Stats"></td>
+         <td data-header="Stats"> ✅</td>
          <td data-header="#">2721</td>
          <td data-header="Title">
             <a href="https://github.com/wwwchendev/UNLOCK-Leetcode/blob/main/problems/2721/README.md">Execute Asynchronous Functions in Parallel</a>
          </td>
          <td data-header="Language">javascript</td>
          <td data-header="Difficulty">Medium</td>
-         <td data-header="Tag">promises,time,</td>
+         <td data-header="Tag">promises,array</td>
       </tr>
       <tr data-problem="2715">
          <td data-header="Stats"> ✅</td>
