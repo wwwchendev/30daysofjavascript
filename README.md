@@ -388,14 +388,14 @@
          </td>
       </tr>
       <tr data-problem="2619">
-         <td data-header="Stats"></td>
+         <td data-header="Stats"> ✅</td>
          <td data-header="#">2619</td>
          <td data-header="Title">
             <a href="https://github.com/wwwchendev/UNLOCK-Leetcode/blob/main/problems/2619/README.md">Array Prototype Last</a>
          </td>
          <td data-header="Language">javascript</td>
          <td data-header="Difficulty">Easy</td>
-         <td data-header="Tag">JSON,</td>
+         <td data-header="Tag">JSON,prototype,this,array</td>
       </tr>
 
    </table>
