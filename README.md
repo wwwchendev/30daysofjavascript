@@ -44,14 +44,14 @@
          <td data-header="Tag">time,setInterval</td>
       </tr>
       <tr data-problem="2724">
-         <td data-header="Stats"></td>
+         <td data-header="Stats"> ✅</td>
          <td data-header="#">2724</td>
          <td data-header="Title">
             <a href="https://github.com/wwwchendev/UNLOCK-Leetcode/blob/main/problems/2724/README.md">Sort By</a>
          </td>
          <td data-header="Language">javascript</td>
          <td data-header="Difficulty">Easy</td>
-         <td data-header="Tag">JSON,</td>
+         <td data-header="Tag">JSON,Array.slice(),Array.sort(),比較函式</td>
       </tr>
       <tr data-problem="2723">
          <td data-header="Stats"> ✅
