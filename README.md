@@ -71,14 +71,14 @@
          </td>
       </tr>
       <tr data-problem="2722">
-         <td data-header="Stats"></td>
+         <td data-header="Stats"> ✅</td>
          <td data-header="#">2722</td>
          <td data-header="Title">
             <a href="https://github.com/wwwchendev/UNLOCK-Leetcode/blob/main/problems/2722/README.md">Join Two Arrays by ID</a>
          </td>
          <td data-header="Language">javascript</td>
          <td data-header="Difficulty">Medium</td>
-         <td data-header="Tag">JSON,</td>
+         <td data-header="Tag">JSON,Object.keys,Object.values,Object[key]</td>
       </tr>
       <tr data-problem="2721">
          <td data-header="Stats"> ✅</td>
