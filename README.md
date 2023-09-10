@@ -270,14 +270,14 @@
          </td>
       </tr>
       <tr data-problem="2631">
-         <td data-header="Stats"></td>
+         <td data-header="Stats"> ✅</td>
          <td data-header="#">2631</td>
          <td data-header="Title">
             <a href="https://github.com/wwwchendev/UNLOCK-Leetcode/blob/main/problems/2631/README.md">Group By</a>
          </td>
          <td data-header="Language">javascript</td>
          <td data-header="Difficulty">Medium</td>
-         <td data-header="Tag">JSON,</td>
+         <td data-header="Tag">JSON,for...of,邏輯運算子,object[key]</td>
       </tr>
       <tr data-problem="2629">
          <td data-header="Stats"> ✅
