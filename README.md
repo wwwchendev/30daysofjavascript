@@ -165,14 +165,14 @@
          <td data-header="Tag">classes,</td>
       </tr>
       <tr data-problem="2677">
-         <td data-header="Stats"></td>
+         <td data-header="Stats"> ✅</td>
          <td data-header="#">2677</td>
          <td data-header="Title">
             <a href="https://github.com/wwwchendev/UNLOCK-Leetcode/blob/main/problems/2677/README.md">Chunk Array</a>
          </td>
          <td data-header="Language">javascript</td>
          <td data-header="Difficulty">Easy</td>
-         <td data-header="Tag">JSON,</td>
+         <td data-header="Tag">JSON,Lodash,Chunk Array,%,</td>
       </tr>
       <tr data-problem="2667">
          <td data-header="Stats"> ✅
