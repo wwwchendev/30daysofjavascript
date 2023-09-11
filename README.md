@@ -341,14 +341,14 @@
          <td data-header="Tag">time,debounce,Lodash</td>
       </tr>
       <tr data-problem="2625">
-         <td data-header="Stats"></td>
+         <td data-header="Stats"> ✅</td>
          <td data-header="#">2625</td>
          <td data-header="Title">
             <a href="https://github.com/wwwchendev/UNLOCK-Leetcode/blob/main/problems/2625/README.md">Flatten Deeply Nested Array</a>
          </td>
          <td data-header="Language">javascript</td>
          <td data-header="Difficulty">Medium</td>
-         <td data-header="Tag">JSON,</td>
+         <td data-header="Tag">JSON,Recursion遞迴,...展開運算符,Array,multi-dimensional array</td>
       </tr>
       <tr data-problem="2622">
          <td data-header="Stats"> ✅</td>
