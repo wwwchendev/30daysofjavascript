@@ -145,14 +145,14 @@
          </td>
       </tr>
       <tr data-problem="2695">
-         <td data-header="Stats"></td>
+         <td data-header="Stats"> ✅</td>
          <td data-header="#">2695</td>
          <td data-header="Title">
             <a href="https://github.com/wwwchendev/UNLOCK-Leetcode/blob/main/problems/2695/README.md">Array Wrapper</a>
          </td>
          <td data-header="Language">javascript</td>
          <td data-header="Difficulty">Easy</td>
-         <td data-header="Tag">classes,</td>
+         <td data-header="Tag">classes,Array.flat(),Array.join()</td>
       </tr>
       <tr data-problem="2694">
          <td data-header="Stats"></td>
