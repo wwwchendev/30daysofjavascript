@@ -155,14 +155,14 @@
          <td data-header="Tag">classes,Array.flat(),Array.join()</td>
       </tr>
       <tr data-problem="2694">
-         <td data-header="Stats"></td>
+         <td data-header="Stats"> ✅</td>
          <td data-header="#">2694</td>
          <td data-header="Title">
             <a href="https://github.com/wwwchendev/UNLOCK-Leetcode/blob/main/problems/2694/README.md">Event Emitter</a>
          </td>
          <td data-header="Language">javascript</td>
          <td data-header="Difficulty">Medium</td>
-         <td data-header="Tag">classes,</td>
+         <td data-header="Tag">classes,事件管理工具,類addEventListener,Map</td>
       </tr>
       <tr data-problem="2677">
          <td data-header="Stats"> ✅</td>
