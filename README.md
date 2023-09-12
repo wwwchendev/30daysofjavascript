@@ -108,7 +108,7 @@
          </td>
          <td data-header="Language">javascript</td>
          <td data-header="Difficulty">Medium</td>
-         <td data-header="Tag">JSON,typeof,Array,Array.filter(Boolean),Array.map(),Boolean(val),for...in,</td>
+         <td data-header="Tag">JSON,typeof,Array,Array.filter(Boolean),<br>Array.map(),Boolean(val),for...in,</td>
       </tr>
       <tr data-problem="2704">
          <td data-header="Stats"> ✅
@@ -348,7 +348,7 @@
          </td>
          <td data-header="Language">javascript</td>
          <td data-header="Difficulty">Medium</td>
-         <td data-header="Tag">JSON,Recursion遞迴,...展開運算符,Array,multi-dimensional array</td>
+         <td data-header="Tag">JSON,Recursion遞迴,...展開運算符,<br>Array,multi-dimensional array</td>
       </tr>
       <tr data-problem="2622">
          <td data-header="Stats"> ✅</td>
