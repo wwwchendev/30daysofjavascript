@@ -29,6 +29,7 @@ expect = (val1)=>{
 
 
 //Testcase
-console.log(expect(5).toBe(5)); //true
-console.log(expect(5).toBe(null)); //Uncaught Error Error: Not Equal
-console.log(expect(5).notToBe(null)); //true
+const A = expect(5);
+console.log(A.toBe(5));
+// console.log(A.toBe(null));
+console.log(A.notToBe(null));
