@@ -2,6 +2,7 @@
 
 ![leetcode](https://miro.medium.com/v2/resize:fit:500/0*SWOk6LWIbav_5kas.png)
 
+![Leetcode Stats](https://leetcard.jacoblin.cool/wwwchendev)](https://leetcode.com/wwwchendev)
 ## Records
   
    <table>
